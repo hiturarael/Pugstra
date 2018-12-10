@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 
 namespace Pugstra.Models
 {
-    class Monster
+    public class Monster
     {
         #region Properties
-        private int Type_1 { get; set; } //elemental type
-        private int Type_2 { get; set; } //elemental type
-        private int Affinity { get; set; } //magical, physical
-        private int PhysAttack { get; set; }
-        private int PhysDef { get; set; }
-        private int MagAttack { get; set; }
-        private int MagDef { get; set; }
-        private int Speed { get; set; }
-        private int Luck { get; set; }
-        private int MaxHP { get; set; }
-        private int CurrentHP { get; set; }
+        public int Type_1 { get; set; } //elemental type
+        public int Type_2 { get; set; } //elemental type
+        public int Affinity { get; set; } //magical, physical
+        public int PhysAttack { get; set; }
+        public int PhysDef { get; set; }
+        public int MagAttack { get; set; }
+        public int MagDef { get; set; }
+        public int Speed { get; set; }
+        public int Luck { get; set; }
+        public int MaxHP { get; set; }
+        public int CurrentHP { get; set; }
+        public int Level { get; set; }
         #endregion
     }
 }

@@ -39,6 +39,7 @@
     <Compile Include="Battle\Attack.cs" />
     <Compile Include="Models\Monster.cs" />
     <Compile Include="Models\Moves.cs" />
+    <Compile Include="Pugstra.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

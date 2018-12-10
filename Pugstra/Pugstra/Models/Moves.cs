@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Pugstra.Models
 {
-    class Moves
+    public class Moves
     {
-        private int IDNum { get; set; }
-        private int BaseDmg { get; set; }
-        private int CritChance { get; set; }
-        private int MissChance { get; set; }
-        private int ElementType { get; set; }
-        private int AttackType { get; set; } //physical/magical
+        public int IDNum { get; set; }
+        public int BaseDmg { get; set; }
+        public int CritChance { get; set; }
+        public int MissChance { get; set; }
+        public int ElementType { get; set; }
+        public int AttackType { get; set; } //physical/magical
     }
 }
