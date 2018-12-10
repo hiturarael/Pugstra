@@ -67,7 +67,7 @@ namespace Pugstra.Battle
             }
 
 
-            AttackValue = ((rand.Next(1, Move.BaseDmg) / Defender.Level) * AttackerStat) / DefenderStat;
+            AttackValue = ((rand.Next(Move.BaseDmg-10, Move.BaseDmg) * AttackerStat) - DefenderStat) / Defender.Level;
 
             if(AttackValue <= 0)
             {

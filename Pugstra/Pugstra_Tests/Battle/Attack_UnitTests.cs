@@ -27,16 +27,16 @@ namespace Pugstra_Tests.Battle
         {
             var SUT = new Pugstra.Battle.Attack();
             int value = 0;
-
-            Attacker.PhysAttack = 10;
+            
+            Attacker.PhysAttack = 255;
             Attacker.MagAttack = 10;
 
             Defender.MagDef = 10;
-            Defender.PhysDef = 10;
-            Defender.Level = 5;
+            Defender.PhysDef = 255;
+            Defender.Level = 5;//100;
 
-            move.BaseDmg = 30;
-            move.AttackType = 0; //physical
+            move.BaseDmg = 150;
+            move.AttackType = 1; //0-physical
 
             value = SUT.Attack_CalculateBaseDamage(move, Attacker, Defender);
 
